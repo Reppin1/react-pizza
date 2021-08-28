@@ -1,7 +1,8 @@
 import ContentLoader from "react-content-loader";
 
-const PizzaBlockPlaceholder = () => (
+const PizzaBlockLoader = () => (
   <ContentLoader
+    className="pizza-block"
     speed={2}
     width={280}
     height={460}
@@ -17,4 +18,4 @@ const PizzaBlockPlaceholder = () => (
   </ContentLoader>
 )
 
-export { PizzaBlockPlaceholder }
+export { PizzaBlockLoader }
